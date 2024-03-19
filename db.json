@@ -1,28 +1,55 @@
 {
-  "users": [
+  "profiles": [
     {
       "id": 1,
-      "name": "Juliet Oma",
-      "email": "julie@yahoo.com",
-      "number": "08100000000"
+      "name": "Bruce Wayne",
+      "position": "Owner",
+      "contract": false,
+      "job description": "Individual or group with full ownership and responsibility for a business."
     },
     {
       "id": 2,
-      "name": "James Williams",
-      "email": "jameswilly@gmail.com",
-      "number": "08111111111"
-    },
+      "name": "Oliver Queen",
+      "position": "Manager",
+      "contract": false,
+      "job description": "Oversees operations and employees to achieve business goals."},
     {
       "id": 3,
-      "name": "Ahmed Ali",
-      "email": "ahmedali012@gmail.com",
-      "number": "09022222222"
+      "name": "Wally West",
+      "position": "Chief Distributor",
+      "contract": true,
+      "job description": "Leads distribution of products or services to customers."
     },
     {
       "id": 4,
-      "name": "Grace Funsho",
-      "email": "gracefunsho@gmail.com",
-      "number": "09033333333"
+      "name": "Clark Kent",
+      "position": "Chief Auditor",
+      "contract": true,
+      "job description": "Manages internal audit functions, assesses financial risk, and provides recommendations for improving organization performance and compliance."
+    },
+    {
+      "id": 5,
+      "name": "Diana Prince",
+      "position": "Head of Human Resources",
+      "contract": false,
+      "job description": "Manages personnel, recruitment, and employee relations."
+    }
+  ],
+  "branches": [
+    {
+      "id": "abc1",
+      "state": "Metropolis",
+      "Address": "33 kent Street"
+    },
+    {
+      "id": "efg2",
+      "state": "Gotham",
+      "Address": "439 Wayne Estate"
+    },
+    {
+      "id": "ijk3",
+      "state": "Anthens",
+      "Address": "12 Princess Creak Street"
     }
   ]
 }
